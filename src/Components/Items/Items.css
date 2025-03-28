@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    transition: 0.3s ease;
+}
+.item:hover {
+    scale: 1.04;
+}
+.item-price {
+    display: flex;
+    gap: 20px;
+}
+#old {
+    text-decoration: line-through;
+    color: gray;
+}

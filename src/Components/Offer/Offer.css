@@ -1,0 +1,17 @@
+.offer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 350px;
+}
+.offer_left button {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 20px;
+}
+.offer_left button:active {
+    background-color: rgb(216, 216, 216);
+}

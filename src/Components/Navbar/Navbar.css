@@ -1,0 +1,50 @@
+body {
+    font-family: "Spartan", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(225, 225, 225);
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+}
+.options ul {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.end_nav {
+    display: flex;
+    gap: 20px;
+}
+.end_nav button {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 20px;
+}
+.end_nav button:active {
+    background-color: rgb(216, 216, 216);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.count {
+    background-color: red;
+    border: 1px solid black;
+    height: max-content;
+    border-radius: 50%;
+    padding: 0px 4px 0px 4px;
+    margin-left: -30px;
+}

@@ -1,0 +1,28 @@
+.news {
+    background-color: rgb(255, 226, 232);
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.news input {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 104, 104);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.news button {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 104, 104);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.news button:active {
+    background-color: rgb(216, 216, 216);
+}
+.news p{
+    color: rgb(123, 123, 123);
+}

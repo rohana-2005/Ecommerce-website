@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+}
+.foot1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.foot2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.foot3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot3 img {
+    border: 0.3px solid rgb(228, 222, 222);
+    height: 30px;
+    padding: 5px;
+}
+.footer hr {
+    width: 100%;
+    margin-top: 20px;
+}
+#copy {
+    font-size: smaller;
+    color: gray;
+}

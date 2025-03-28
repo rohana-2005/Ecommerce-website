@@ -1,0 +1,18 @@
+.hero {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgb(239, 221, 234);
+}
+.hero_left button {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 20px;
+}
+
+.hero_left button:active {
+    background-color: rgb(216, 216, 216);
+}
